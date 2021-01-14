@@ -1,3 +1,89 @@
-h1{
-  font-size:15px;
+body{
+  margin:0;
+}
+
+.header-title{
+  background-color: aqua;
+  height:120px;
+  text-align: center;
+  padding-top:50px;
+}
+.header-title h1{
+  margin:0;
+}
+.header-title p{
+  margin:0;
+}
+
+.header-menus{
+  background-color: beige;
+  height:60px;
+  line-height: 50px;
+}
+
+.header-menus ul{
+  list-style: none;
+  display: flex;
+  margin:0;
+  padding:0;
+}
+
+.header-menus li{
+  margin:5px 10px;
+}
+.header-menus a{
+  text-decoration: none;
+  color:black;
+}
+
+.header-menus a:hover{
+  opacity: 0.2;
+}
+
+.games img{
+  width:100%;
+}
+
+.games > h1{
+  text-align: center;
+  padding-top:15px;
+}
+
+.games .game-info{
+  margin:0 100px;
+}
+
+.games section{
+  padding-bottom:60px;
+  padding-top:10px;
+  border-top:1px solid black;
+}
+
+.games section a{
+  color:green;
+  font-size: 20px;
+}
+
+footer{
+  background-color: black;
+  color:white;
+
+}
+footer ul{
+  list-style: none;
+  display: flex;
+}
+
+footer li{
+  margin:5px 10px;
+}
+footer a{
+  text-decoration: none;
+  color:white;
+}
+.message{
+  text-align: center;
+}
+.message h2{
+  margin: 0;
 }
